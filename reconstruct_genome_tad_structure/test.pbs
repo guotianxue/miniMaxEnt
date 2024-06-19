@@ -1,0 +1,8 @@
+#!/bin/bash
+#PBS -N test.pbs
+#PBS -l nodes=node9:ppn=48
+#PBS -l walltime=9000:00:00
+cd $PBS_O_WORKDIR
+
+# g++ -std=c++11 -o test  -I /data/software/HiC/vscode_package/boost_1_79_0 -I /data/software/HiC/vscode_package/eigen-3.4.0  ./test.cpp  -pthread
+/data/home/txguo/code/code_use_linux_pure_5.5/test

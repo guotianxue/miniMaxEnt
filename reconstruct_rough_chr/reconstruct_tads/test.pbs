@@ -1,0 +1,9 @@
+#!/bin/bash
+#PBS -N test.pbs
+#PBS -l nodes=node2:ppn=48
+#PBS -l walltime=9000:00:00
+cd $PBS_O_WORKDIR
+
+# g++ -std=c++11 -o test  -I /data/software/HiC/vscode_package/boost_1_79_0 -I /data/software/HiC/vscode_package/eigen-3.4.0  ./test.cpp  -pthread
+/data/home/txguo/code/reconstruct_tads_neighbor3/test  -m 1000000 -r 40  -d 5 -F -S 283 -E 12159 -s 5 --chr 2
+# /data/home/txguo/code/reconstruct_tads_neighbor1/test  -m 3000000 -r 40  -d 5 -D -S 283 -E 12159 -s 5
