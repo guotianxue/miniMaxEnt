@@ -1,7 +1,0 @@
-[
-{
-  "directory": "E:/leilei/code_use/build",
-  "command": "D:/MinGW/bin/g++.exe  @CMakeFiles/Raw_data_Inverse.dir/includes_CXX.rsp -g -o CMakeFiles/Raw_data_Inverse.dir/test.cpp.obj -c E:/leilei/code_use/test.cpp",
-  "file": "E:/leilei/code_use/test.cpp"
-}
-]

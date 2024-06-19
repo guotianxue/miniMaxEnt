@@ -1,3 +1,0 @@
-E:/leilei/code_use/build/CMakeFiles/Raw_data_Inverse.dir
-E:/leilei/code_use/build/CMakeFiles/edit_cache.dir
-E:/leilei/code_use/build/CMakeFiles/rebuild_cache.dir
